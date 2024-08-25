@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.DetailCiriActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gradient_background"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Title TextView in Toolbar -->
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Detail Ciri Uang"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Stylish header -->
+    <TextView
+        android:id="@+id/tvNominal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nominal Uang"
+        android:textColor="@color/custom_color_primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <!-- Emission year text -->
+    <TextView
+        android:id="@+id/tvTahunEmisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tahun Emisi"
+        android:textColor="@color/custom_color_primary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNominal" />
+
+
+    <!-- Container with rounded corners and elevation -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/containerCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTahunEmisi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="202dp">
+
+            <!-- Image with padding -->
+            <ImageView
+                android:id="@+id/imgDepan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:src="@drawable/duit_seratus_2022" />
+
+            <ImageView
+                android:id="@+id/imgDepanUV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:src="@drawable/duit_seratus_2022_uv"
+                app:layout_constraintBottom_toBottomOf="@id/imgDepan"
+                app:layout_constraintTop_toTopOf="@id/imgDepan" />
+
+            <!-- Slider for Front Image -->
+            <SeekBar
+                android:id="@+id/seekBarDepan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imgDepanUV"
+                android:layout_alignBottom="@+id/imgDepanUV"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:max="100"
+                android:progress="50"
+                android:thumb="@drawable/slider_thumb"
+                app:layout_constraintBottom_toBottomOf="@id/imgDepanUV"
+                app:layout_constraintTop_toTopOf="@id/imgDepanUV" />
+
+            <!-- Label "Bagian depan" -->
+            <TextView
+                android:id="@+id/frontLabel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#B0164D2A"
+                android:padding="8dp"
+                android:text="Bagian depan"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- Container with rounded corners and elevation -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/containerCard2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:elevation="4dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerCard">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="202dp">
+
+            <!-- Image with padding -->
+            <ImageView
+                android:id="@+id/imgBelakang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:src="@drawable/duit_seratus_2022_2" />
+
+            <ImageView
+                android:id="@+id/imgBelakangUV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:src="@drawable/duit_seratus_2022_2_uv"
+                app:layout_constraintBottom_toBottomOf="@id/imgBelakang"
+                app:layout_constraintTop_toTopOf="@id/imgBelakang" />
+
+            <!-- Slider for Front Image -->
+            <SeekBar
+                android:id="@+id/seekBarBelakang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imgBelakangUV"
+                android:layout_alignBottom="@+id/imgBelakangUV"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:max="100"
+                android:progress="50"
+                android:thumb="@drawable/slider_thumb"
+                app:layout_constraintBottom_toBottomOf="@id/imgBelakangUV"
+                app:layout_constraintTop_toTopOf="@id/imgBelakangUV" />
+
+            <!-- Label "Bagian depan" -->
+            <TextView
+                android:id="@+id/frontLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#B0164D2A"
+                android:padding="8dp"
+                android:text="Bagian depan"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">VeriRupiah</string>
+    <string name="Lewati">Lewati</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="slogan">"Keaslian Uang Dalam Genggaman Anda"</string>
+
+    <!--    Deskripsi jenis uang 16-->
+    <string name="desc_seratus">Pecahan Rp100.000 menampilkan gambar dua tokoh proklamator kemerdekaan Indonesia, Soekarno dan Mohammad Hatta, di bagian depan. Desain ini menggambarkan semangat perjuangan dan kesatuan bangsa Indonesia. Di samping potret Soekarno dan Hatta, terdapat teks "Bank Indonesia" dan nominal "100000" yang tercetak jelas. Motif latar belakang Gedung MPR/DPR RI melambangkan pusat kedaulatan rakyat dan demokrasi di Indonesia.
+        Di bagian belakang, uang pecahan ini menampilkan Tari Topeng Betawi, sebuah tarian tradisional dari Jakarta yang kaya akan nilai budaya. Selain itu, pemandangan indah Raja Ampat yang terkenal dengan keanekaragaman hayati bawah lautnya, serta gambar Burung Cendrawasih yang eksotis, melambangkan keindahan alam Papua. Desain ini tidak hanya menampilkan kekayaan budaya tetapi juga keindahan alam Indonesia yang memukau.</string>
+    <string name="desc_limapuluh">Uang pecahan Rp50.000 menampilkan gambar Ir. H. Djuanda Kartawidjaja, seorang pahlawan nasional yang dikenal dengan Deklarasi Djuanda yang menegaskan wilayah perairan Indonesia sebagai bagian dari NKRI. Potret Djuanda di bagian depan uang ini menggambarkan kontribusinya yang besar dalam menjaga kedaulatan negara. Latar belakang Jembatan Nasional Suramadu menambah elemen modernitas dan kemajuan infrastruktur Indonesia.
+        Pada bagian belakang, Tari Legong dari Bali, yang dikenal dengan keanggunan dan keindahan gerakannya, ditampilkan dengan latar belakang yang menonjol. Selain itu, terdapat juga gambar Taman Nasional Komodo, rumah bagi satwa endemik Komodo, yang menunjukkan kekayaan alam Indonesia. Desain ini menampilkan harmoni antara budaya tradisional dan keindahan alam yang menjadi kebanggaan nasional.</string>
+    <string name="desc_duapuluh">Pecahan Rp20.000 memperlihatkan gambar Dr. G.S.S.J. Ratulangi, seorang pahlawan dari Sulawesi Utara yang berperan penting dalam perjuangan kemerdekaan Indonesia. Potret Ratulangi di bagian depan uang ini mencerminkan semangat nasionalisme dan pengorbanan bagi tanah air. Latar belakang Bunaken, salah satu taman laut terkenal di dunia, menunjukkan kekayaan ekosistem laut Indonesia.
+        Bagian belakang uang ini menampilkan Tari Gong, tarian tradisional dari Kalimantan Timur yang mencerminkan keindahan dan keunikan budaya daerah tersebut. Selain itu, gambar pemandangan alam Derawan dan Hiu memperlihatkan keindahan bawah laut Indonesia yang kaya dengan keanekaragaman hayati. Kombinasi budaya dan alam ini menunjukkan betapa beragamnya kekayaan yang dimiliki Indonesia.</string>
+    <string name="desc_sepuluh">Frans Kaisiepo, seorang pahlawan nasional dari Papua, menghiasi bagian depan pecahan Rp10.000. Kontribusinya dalam memperjuangkan integrasi Papua ke dalam NKRI menjadikannya sosok yang dihormati dan diabadikan pada uang kertas ini. Latar belakang pemandangan Raja Ampat yang spektakuler mempertegas keindahan alam Papua yang kaya dan belum banyak tersentuh.
+        Di bagian belakang, uang ini menampilkan Tari Pakarena dari Sulawesi Selatan, sebuah tarian yang menggambarkan keanggunan dan kedalaman budaya lokal. Selain itu, Taman Nasional Wakatobi yang terkenal dengan kekayaan terumbu karangnya dan Burung Maleo yang unik turut menghiasi bagian ini, memperlihatkan keindahan alam Sulawesi yang luar biasa. Desain ini menonjolkan kekayaan budaya dan alam Indonesia secara harmonis.</string>
+    <string name="desc_limaribu">Pada pecahan Rp5.000, terlihat gambar Dr. K.H. Idham Chalid, seorang tokoh penting dalam sejarah perjuangan Indonesia dan salah satu pemimpin besar umat Islam. Potret ini menunjukkan betapa besarnya kontribusi tokoh-tokoh agama dalam sejarah bangsa. Latar belakang Gedung Bank Indonesia melambangkan pusat perekonomian dan stabilitas keuangan negara.
+        Di bagian belakang, Tari Gambyong dari Jawa Tengah ditampilkan sebagai simbol keindahan dan kekayaan budaya Jawa. Gambar Gunung Bromo, yang terkenal dengan pemandangan alamnya yang menakjubkan, serta Bunga Sedap Malam menambah nilai estetika dan mempromosikan pariwisata alam Indonesia. Desain ini mencerminkan kombinasi sempurna antara warisan budaya dan keindahan alam yang menjadi daya tarik Indonesia.</string>
+    <string name="desc_duaribu">Mohammad Husni Thamrin, seorang tokoh pergerakan nasional dari Jakarta, menghiasi bagian depan pecahan Rp2.000. Perannya dalam memajukan hak-hak rakyat Indonesia di masa penjajahan Belanda membuatnya menjadi sosok yang dihormati. Latar belakang Taman Mini Indonesia Indah menggambarkan keragaman budaya Indonesia yang dibanggakan.
+        Bagian belakang uang ini menampilkan Tari Piring dari Sumatra Barat, yang dikenal dengan keunikan dan keterampilannya dalam menari sambil membawa piring. Gambar Ngarai Sianok yang memukau serta Bunga Jeumpa yang indah melengkapi desain ini, menonjolkan kekayaan alam dan budaya dari Sumatra Barat. Kombinasi ini menunjukkan betapa beragam dan indahnya Indonesia.</string>
+    <string name="desc_seribu">Uang pecahan Rp1.000 menampilkan Tjut Meutia, seorang pahlawan perempuan dari Aceh yang dikenal dengan perjuangannya melawan penjajahan Belanda. Potret Tjut Meutia di bagian depan uang ini mencerminkan keberanian dan semangat perjuangan perempuan Indonesia. Latar belakang Masjid Raya Baiturrahman menambah nuansa religius dan historis dari daerah Aceh.
+        Di bagian belakang, Tari Tifa dari Maluku, yang penuh energi dan semangat, menjadi simbol kekayaan budaya Maluku. Pemandangan Pantai Banda Neira yang eksotis serta Bunga Anggrek Larat yang indah melengkapi desain ini, memperlihatkan pesona alam dan flora Maluku. Desain ini memperlihatkan kombinasi harmonis antara budaya dan alam yang memperkaya identitas Indonesia.</string>
+
+    <!--    Deskripsi jenis uang 22-->
+    <string name="desc_seratus22">Uang pecahan Rp100.000 menampilkan gambar utama pahlawan nasional Dr. Ir. Soekarno dan Drs. Mohammad Hatta. Bagian depan menonjolkan warna merah dengan desain yang menggambarkan semangat kemerdekaan. Pada bagian belakang terdapat gambar Tari Topeng Betawi, pemandangan alam Raja Ampat, dan Bunga Anggrek Bulan, dengan dominasi warna merah. Pecahan ini menggunakan teknik cetak intaglio yang menghasilkan elemen halus hingga tebal dan memberikan kesan kasar saat diraba, serta memiliki unsur pengamanan yang paling tinggi dibandingkan pecahan lainnya.</string>
+    <string name="desc_limapuluh22">Uang pecahan Rp50.000 memiliki dominasi warna biru dan menampilkan gambar utama pahlawan nasional Ir. H. Djuanda Kartawidjaja di bagian depan. Terdapat lambang negara Garuda Pancasila, gambar kepulauan Indonesia, Bunga Jepun Bali, dan motif khas Indonesia. Di bagian belakang, tampak gambar Tari Legong dari Bali, pemandangan alam Taman Nasional Komodo, dan Bunga Jepun Bali.</string>
+    <string name="desc_duapuluh22">Pecahan Rp20.000 didominasi warna hijau dan menampilkan gambar utama pahlawan nasional Gerungan Saul Samuel Jacob Ratulangi (Sam Ratulangi). Desain ini mencakup lambang negara Garuda Pancasila, gambar kepulauan Indonesia, Bunga Anggrek Hitam, dan beberapa motif khas Indonesia. Bagian belakang uang ini menampilkan Tari Gong dari suku Dayak di Kalimantan, pemandangan alam Derawan, dan Bunga Anggrek Hitam.</string>
+    <string name="desc_sepuluh22">Uang pecahan Rp10.000 memiliki dominasi warna ungu dengan gambar utama pahlawan nasional Frans Kaisiepo. Desain ini juga mencakup lambang negara Garuda Pancasila, gambar kepulauan Indonesia, Bunga Cempaka Hutan Kasar, serta motif khas Indonesia seperti motif Asmat Papua dan motif Perisai Citak Asmat. Bagian belakang menampilkan Tari Pakarena dari Sulawesi Selatan, pemandangan alam Taman Nasional Wakatobi, dan Bunga Cempaka Hutan Kasar, serta motif NeLimbongan Toraja dan motif PaBarana.</string>
+    <string name="desc_limaribu22">Pecahan Rp5.000 didominasi warna cokelat dengan gambar utama pahlawan nasional Dr. K.H. Idham Chalid. Desain ini mencakup lambang negara Garuda Pancasila, gambar kepulauan Indonesia, Bunga Sedap Malam, dan beberapa motif khas Indonesia. Bagian belakang menampilkan Tari Gambyong dari Surakarta, Jawa Tengah, pemandangan alam Gunung Bromo, dan Bunga Sedap Malam.</string>
+    <string name="desc_duaribu22">Uang pecahan Rp2.000 menampilkan gambar utama pahlawan nasional Mohammad Hoesni Thamrin. Desain ini mencakup lambang negara Garuda Pancasila, gambar kepulauan Indonesia, Bunga Jeumpa, dan beberapa motif khas Indonesia. Bagian belakang menampilkan Tari Piring dari Sumatera Barat, pemandangan alam Ngarai Sianok, dan Bunga Jeumpa.</string>
+    <string name="desc_seribu22">Pecahan Rp1.000 menampilkan gambar utama pahlawan nasional Tjut Meutia. Desain ini mencakup lambang negara Garuda Pancasila, gambar kepulauan Indonesia, Bunga Anggrek Larat, dan beberapa motif khas Indonesia. Bagian belakang menampilkan Tari Tifa dari Papua, pemandangan alam Banda Neira, dan Bunga Anggrek Larat, dengan dominasi warna hijau.</string>
+
+    <!--    Deskripsi tambahan hasil prediksi-->
+    <string name="desc_uangpalsu">Uang  palsu memiliki beberapa ciri yang dapat dikenali, seperti kualitas cetakan yang buruk, watermark yang tidak jelas, dan fitur keamanan lainnya yang tidak sesuai dengan uang asli. Hati-hati saat menerima uang dengan ciri-ciri tersebut.</string>
+    <string name="desc_unknown">Gambar tidak dapat dideteksi. Pastikan gambar yang diunggah jelas dan sesuai dengan spesifikasi yang dibutuhkan untuk mendeteksi keaslian uang.</string>
+
+    <!--    Deskripsi Info Fragment-->
+    <string name="app_description">Aplikasi Pendeteksi Uang Rupiah Tahun Emisi 2016 Berdasarkan Watermark menggunakan Metode CNN.</string>
+
+    <string name="developer_info">Muhammad Syahrul Nizam
+        \n2057301069
+        \nSistem Informasi
+        \nJurusan Teknologi Informasi
+        \nPoliteknik Caltex Riau</string>
+
+    <string name="contributor_info">1. Dosen Pembimbing: Warnia Nengsih, S.Kom.,M.Kom.
+        \n2. Dosen Penguji 1:  Muhammad Mahrus Zain, S.S.T., M.T.I.
+        \n3. Dosen Penguji 2: Yuliska, S.T., M.Eng.</string>
+
+    <!--    Deskripsi Info Developer-->
+    <string name="email">syahrul20si@mahasiswa.pcr.ac.id</string>
+    <string name="phone">+62852-7804-8446</string>
+    <string name="address">Politeknik Caltex Riau, Kota Pekanbaru, Riau 28265</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

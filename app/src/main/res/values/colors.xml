@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#00FF00</color>
+
+    <!-- my custom colors-->
+    <color name="custom_color_primary">#1A5732</color>
+    <color name="custom_color_secondary">#45681F</color>
+    <color name="custom_color_secondary_light">#3ECC6A</color>
+    <color name="custom_color_background">#FFFFFF</color>
+    <color name="custom_text_primary">#060906</color>
+    <color name="custom_text_secondary">#464747</color>
+
+    <color name="start_gradient">#67AC28</color>
+    <color name="end_gradient">#164D2A</color>
+    <color name="buttonfitur">#235831</color>
+    <color name="red">#751414</color>
+
+
+
+
+</resources>

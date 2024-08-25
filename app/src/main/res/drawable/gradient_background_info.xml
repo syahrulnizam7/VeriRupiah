@@ -1,0 +1,21 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Image -->
+    <item android:drawable="@drawable/background_duit_te2016" /> <!-- Gambar drawable -->
+
+    <!-- Transparent Gradient -->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+<!--            <gradient-->
+<!--                android:startColor="#6600FF00"-->
+<!--                android:centerColor="#6600FF00"-->
+<!--                android:endColor="#FF00FF00"-->
+<!--                android:angle="90"/> -->
+            <gradient
+                android:angle="90"
+                android:startColor="#66CBEA28"
+                android:centerColor="#6669AD26"
+                android:endColor="#164D2A"
+                android:type="linear"/>
+        </shape>
+    </item>
+</layer-list>

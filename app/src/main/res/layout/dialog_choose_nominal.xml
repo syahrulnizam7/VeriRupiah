@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Nominal Uang"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_nominal_2016"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nominal T.E 2016"
+        app:cornerRadius="8dp"
+        app:backgroundTint="@color/buttonfitur"
+        app:strokeColor="@color/custom_color_primary"
+        app:strokeWidth="2dp"
+        android:textColor="@android:color/white"
+
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_nominal_2022"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nominal T.E 2022"
+        app:cornerRadius="8dp"
+        app:backgroundTint="@color/buttonfitur"
+        app:strokeColor="@color/custom_color_primary"
+        app:strokeWidth="2dp"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

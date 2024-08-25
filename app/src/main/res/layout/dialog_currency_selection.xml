@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="Aplikasi hanya dapat mendeteksi 2 Nominal uang ini pada tampak depan"
+        android:textAlignment="center"
+        android:textColor="@color/custom_color_primary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="4dp"
+        app:cardElevation="0pt">
+
+        <ImageButton
+            android:id="@+id/button_100000"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_stroke_green"
+            android:scaleType="centerInside"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/duit_seratus" />
+
+        <ImageButton
+            android:id="@+id/button_1000002"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_stroke_green"
+            android:scaleType="centerInside"
+            android:src="@drawable/duit_seratus_2022" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="4dp"
+        app:cardElevation="0pt">
+
+
+        <ImageButton
+            android:id="@+id/button_50000"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_stroke_green"
+            android:scaleType="centerInside"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/duit_limapuluh" />
+
+        <ImageButton
+            android:id="@+id/button_500002"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_stroke_green"
+            android:scaleType="centerInside"
+            android:src="@drawable/duit_limapuluh_2022" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Cancel Button -->
+    <Button
+        android:id="@+id/button_oke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:backgroundTint="@color/buttonfitur"
+        android:padding="8dp"
+        android:text="OKE"
+        android:textColor="@color/white" />
+</LinearLayout>

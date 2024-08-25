@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/dialog_hasil_prediksi.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Deteksi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@color/custom_color_primary"/>
+
+    <TextView
+        android:id="@+id/tvConfidenceT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Akurasi:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textColor="@color/custom_color_primary"/>
+
+    <TextView
+        android:id="@+id/tvConfidence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presentasi akurasi akan muncul disini"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textColor="@color/custom_color_secondary"/>
+
+    <TextView
+        android:id="@+id/tvDescriptionT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:lineSpacingExtra="8dp"
+        android:justificationMode="inter_word"
+        android:textColor="@color/custom_color_primary" />
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini deskripsi hasil prediksi duit"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:lineSpacingExtra="8dp"
+        android:justificationMode="inter_word"
+        android:textColor="@color/custom_color_secondary" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutup"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:backgroundTint="@color/buttonfitur"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

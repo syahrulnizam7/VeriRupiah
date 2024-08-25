@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Warna ikon dan teks item menu saat dipilih -->
+    <item android:color="@color/start_gradient" android:state_checked="true"/>
+    <!-- Warna ikon dan teks item menu saat tidak dipilih -->
+    <item android:color="#808080"/>
+</selector>

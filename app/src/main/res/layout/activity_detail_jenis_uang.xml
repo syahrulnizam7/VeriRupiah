@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.DetailJenisUang">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gradient_background"
+        android:elevation="4dp"
+        android:layout_alignParentTop="true">
+
+        <!-- Title TextView in Toolbar -->
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Uang"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- ScrollView Container -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailNamauang"
+                android:layout_marginTop="14dp"
+                android:text="Recipe Name"
+                android:textSize="24sp"
+                android:textColor="@color/custom_color_secondary"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardImage"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <!-- FrameLayout to hold ViewPager2 and Indicators -->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.viewpager2.widget.ViewPager2
+                        android:id="@+id/viewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center" />
+
+                    <!-- Indicators -->
+                    <LinearLayout
+                        android:id="@+id/indicatorsLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <View
+                            android:id="@+id/indicator1"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_margin="4dp"
+                            android:background="@drawable/indicator_unselected" />
+
+                        <View
+                            android:id="@+id/indicator2"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:layout_margin="4dp"
+                            android:background="@drawable/indicator_unselected" />
+
+                    </LinearLayout>
+                </FrameLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahun Emisi:"
+                android:textColor="@color/custom_color_secondary"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="time"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:id="@+id/detail_tahunemisi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi:"
+                android:textColor="@color/custom_color_secondary"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/detail_deskripsi_jenisuang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Ini deskripsi duit"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
