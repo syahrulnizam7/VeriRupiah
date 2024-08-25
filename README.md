@@ -1,1 +1,1 @@
-![Poster More HD (1)](https://github.com/user-attachments/assets/639cf524-dbfc-4a49-ad54-40702d6f0f6a)
+![Poster](https://github.com/user-attachments/assets/1b27e251-8b18-4231-b01b-dcf2c6d47381)
